@@ -20,7 +20,9 @@ const Form = ({ setInputText, todos, setTodos, inputText, setStatus }) => {
             <input
                 value={inputText}
                 onChange={inputTextHandler}
-                type="text">
+                type="text"
+                placeholder="Type your task"
+                >
             </input>
             <button onClick={submitTodoHandler} type="submit">
                 <i className="fas fa-plus-square"></i>
